@@ -7,7 +7,7 @@ module.exports = {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
     clean: true, // Clean dist before each build
-    publicPath: "./", // Ensures assets load correctly on GitHub Pages
+    publicPath: "/restaurant-page/" // Ensures assets load correctly on GitHub Pages
   },
   mode: "development",
   devServer: {
